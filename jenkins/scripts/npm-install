@@ -1,0 +1,4 @@
+#!/bin/bash
+npm config set proxy http://192.168.56.101:3128
+npm config set https-proxy http://192.168.56.101:3128
+npm install
